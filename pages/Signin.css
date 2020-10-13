@@ -1,0 +1,160 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #d7dfe2;
+  font-family: "Open Sans";
+  /*
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    */
+}
+.LOGO {
+  width: 280px;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  top: -80px;
+  transform: translate(-50%);
+}
+.box {
+  width: 800px;
+  margin-top: 20px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 500px;
+  transform: translate(-50%, -50%);
+  border: #546e7a solid 3px;
+  border-radius: 15px;
+  box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
+    inset 5px 5px 10px #546e7a;
+  box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
+    inset 5px 5px 10px #546e7a;
+}
+
+/*-------------------------------------Sin in------------------------------------*/
+.Sin,
+.Goh {
+  height: 70px;
+  width: 200px;
+  font-size: 3em;
+  border-radius: 5em;
+  border: none;
+  outline: none;
+  background-color: #d7dfe2;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.6),
+    5px 5px 10px rgba(0, 0, 0, 0.3);
+  /*text*/
+  /*
+  color: #546e7a;
+  */
+  color: crimson;
+
+  text-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.Goh {
+  font-size: 2em;
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+}
+.Sin:hover {
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.6),
+    10px 10px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.Sin:active {
+  box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
+    inset 5px 5px 10px #546e7a;
+}
+/*--------------------------------------------*/
+
+.Goh:hover {
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.6),
+    10px 10px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.Goh:active {
+  box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
+    inset 5px 5px 10px #546e7a;
+}
+
+/*-----------------------------------------------*/
+
+/*-------------------------------------Login------------------------------------*/
+
+/*-------------------------------------Username------------------------------------*/
+/*
+.Use {
+  height: 40px;
+  width: 400px;
+  margin-bottom: 100px;
+  padding: 20px;
+  font-size: 10px;
+  font-size: 3em;
+  border-radius: 5em;
+  border: none;
+  outline: none;
+  background-color: #d7dfe2;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.6),
+    5px 5px 10px rgba(0, 0, 0, 0.3);
+  color: #546e7a;
+  text-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.3);
+  font-size: 40px;
+}
+*/
+/*-------------------------------------Username------------------------------------*/
+
+/*-------------------------------------Password------------------------------------*/
+
+.Pas,
+.rePas,
+.Use {
+  height: 50px;
+  width: 400px;
+  margin-bottom: 100px;
+  padding: 20px;
+  font-size: 10px;
+  font-size: 3em;
+  border-radius: 5em;
+  border: none;
+  outline: none;
+  background-color: #d7dfe2;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.6),
+    5px 5px 10px rgba(0, 0, 0, 0.3);
+  /*text*/
+  color: #546e7a;
+  text-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.3);
+  font-size: 40px;
+}
+.Pas:focus {
+  box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
+    inset 5px 5px 10px #546e7a;
+}
+.rePas:focus {
+  box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
+    inset 5px 5px 10px #546e7a;
+}
+.Use:focus {
+  box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
+    inset 5px 5px 10px #546e7a;
+}
+/*-------------------------------------Password------------------------------------*/
+.Signup {
+  float: right;
+  transform: translate(0, -150px);
+}
+.Gohome {
+  position: relative;
+  float: right;
+  top: 5px;
+}

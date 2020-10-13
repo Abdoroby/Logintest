@@ -1,22 +1,245 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Log in</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../page-2-A/pages/style.css" />
+    <link rel="shortcut icon" type="image/png" href="Logo.png" />
+    <title>Abdo Roby</title>
   </head>
+
   <body>
-    <form class="box">
-      <div class="Username">
-        <input type="text" placeholder="Username" class="Use" />
+    <div class="loader"><img src="GIF/Loaderfor WEB.gif" /></div>
+
+    <nav class="menu">
+      <div id="logo">
+        <img src="../page-2-A/pages/Logo.png" class="Logo-L" width="50" height="50" />
       </div>
-      <div class="Password">
-        <input type="password" placeholder="Password" class="Pas" />
-      </div>
-      <dir class="Login">
-        <input type="submit" value="Login" name="Login" class="Log" />
-      </dir>
-    </form>
+      <ul>
+        <li>
+         
+          <button id="Bu1"">
+            <span class="MyWork"> <b> Home </b></span>
+          </button>
+        
+        </li>
+        <li>
+          <a href="../page-2-A/pages/Login.html">
+          <button id="Bu2"">
+            <span class="MyWork"> <b> Massger </b></span>
+          </button>
+        </a>
+        </li>
+      </ul>
+      <ul class="menur">
+        <li>
+          <a href="#" class="menu-item">
+            <span class="MyWork1"> <b> Language </b></span></a>
+          <div class="sub-cont">
+            <div class="sub-drop">
+              <ul>
+                <li><a href="#">Arabic</a></li>
+                <li><a href="#">English</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <button id="goup" onclick="window.scrollTo(0,0)"></button>
+
+    <img
+      src="../page-2-A/pages/Logo.png"
+      class="Logo-R"
+      width="540"
+      height="240"
+      style="float: right; margin-top: 50px; margin-right: 50px"
+    />
+    <!--------------------------------------------------------------------------------------------------------------------------------->
+    <!--------------------------------------------------------------------------------------------------------------------------------->
+    <script>
+      var loader = document.querySelector(".loader");
+      window.addEventListener("load", vanish);
+
+      function vanish() {
+        loader.classList.add("disppear");
+      }
+      var My = document.getElementById("goup");
+      window.onscroll = function () {
+        console.log(window.pageYOffset);
+        ("use strict");
+        console.log("Hello worled");
+        if (window.pageYOffset >= 500) {
+          My.style.opacity = "1";
+        } else {
+          My.style.opacity = "0";
+        }
+      };
+    </script>
+    <pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </pre>
   </body>
 </html>
