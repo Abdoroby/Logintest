@@ -8,10 +8,10 @@ body {
   background-color: #d7dfe2;
   font-family: "Open Sans";
   /*
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  */
 }
 .LOGO {
   width: 280px;
@@ -22,7 +22,6 @@ body {
   transform: translate(-50%);
 }
 .box {
-  width: 800px;
   margin-top: 20px;
   padding: 40px;
   position: absolute;
@@ -37,12 +36,12 @@ body {
   box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
     inset 5px 5px 10px #546e7a;
 }
-
-/*-------------------------------------Sin in------------------------------------*/
-.Sin,
+/*-------------------------------------Login------------------------------------*/
+.Log,
 .Goh {
   height: 70px;
   width: 200px;
+
   font-size: 3em;
   border-radius: 5em;
   border: none;
@@ -51,30 +50,21 @@ body {
   box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.6),
     5px 5px 10px rgba(0, 0, 0, 0.3);
   /*text*/
-  /*
   color: #546e7a;
-  */
-  color: crimson;
-
   text-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
     inset 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
-.Goh {
-  font-size: 2em;
-  height: 50px;
-  width: 200px;
-  margin: 10px;
-}
-.Sin:hover {
+.Log:hover {
   box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.6),
     10px 10px 15px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
-.Sin:active {
+.Log:active {
   box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
     inset 5px 5px 10px #546e7a;
 }
-/*--------------------------------------------*/
+
+/*-------------------------------------Login------------------------------------*/
 
 .Goh:hover {
   box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.6),
@@ -86,15 +76,17 @@ body {
     inset 5px 5px 10px #546e7a;
 }
 
-/*-----------------------------------------------*/
-
-/*-------------------------------------Login------------------------------------*/
-
+.Goh {
+  font-size: 2em;
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+  color: blue;
+}
 /*-------------------------------------Username------------------------------------*/
-/*
 .Use {
-  height: 40px;
-  width: 400px;
+  height: 70px;
+  width: 500px;
   margin-bottom: 100px;
   padding: 20px;
   font-size: 10px;
@@ -105,21 +97,23 @@ body {
   background-color: #d7dfe2;
   box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.6),
     5px 5px 10px rgba(0, 0, 0, 0.3);
+  /*text*/
   color: #546e7a;
   text-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
     inset 5px 5px 10px rgba(0, 0, 0, 0.3);
   font-size: 40px;
 }
-*/
+.Use:focus {
+  box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
+    inset 5px 5px 10px #546e7a;
+}
 /*-------------------------------------Username------------------------------------*/
 
 /*-------------------------------------Password------------------------------------*/
 
-.Pas,
-.rePas,
-.Use {
-  height: 50px;
-  width: 400px;
+.Pas {
+  height: 70px;
+  width: 500px;
   margin-bottom: 100px;
   padding: 20px;
   font-size: 10px;
@@ -140,21 +134,14 @@ body {
   box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
     inset 5px 5px 10px #546e7a;
 }
-.rePas:focus {
-  box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
-    inset 5px 5px 10px #546e7a;
-}
-.Use:focus {
-  box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
-    inset 5px 5px 10px #546e7a;
-}
 /*-------------------------------------Password------------------------------------*/
-.Signup {
-  float: right;
-  transform: translate(0, -150px);
-}
-.Gohome {
+
+.Forget {
   position: relative;
+  bottom: 30px;
   float: right;
-  top: 5px;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
 }

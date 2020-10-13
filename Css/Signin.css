@@ -8,10 +8,10 @@ body {
   background-color: #d7dfe2;
   font-family: "Open Sans";
   /*
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    */
 }
 .LOGO {
   width: 280px;
@@ -22,6 +22,7 @@ body {
   transform: translate(-50%);
 }
 .box {
+  width: 800px;
   margin-top: 20px;
   padding: 40px;
   position: absolute;
@@ -36,12 +37,12 @@ body {
   box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
     inset 5px 5px 10px #546e7a;
 }
-/*-------------------------------------Login------------------------------------*/
-.Log,
+
+/*-------------------------------------Sin in------------------------------------*/
+.Sin,
 .Goh {
   height: 70px;
-  width: 200px;
-
+  width: 180px;
   font-size: 3em;
   border-radius: 5em;
   border: none;
@@ -49,22 +50,28 @@ body {
   background-color: #d7dfe2;
   box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.6),
     5px 5px 10px rgba(0, 0, 0, 0.3);
-  /*text*/
-  color: #546e7a;
+  color: crimson;
+
   text-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
     inset 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
-.Log:hover {
+.Goh {
+  font-size: 2em;
+  height: 50px;
+  width: 180px;
+  margin: 10px;
+  color: darkgreen;
+}
+.Sin:hover {
   box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.6),
     10px 10px 15px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
-.Log:active {
+.Sin:active {
   box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
     inset 5px 5px 10px #546e7a;
 }
-
-/*-------------------------------------Login------------------------------------*/
+/*--------------------------------------------*/
 
 .Goh:hover {
   box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.6),
@@ -76,16 +83,23 @@ body {
     inset 5px 5px 10px #546e7a;
 }
 
-.Goh {
-  font-size: 2em;
-  height: 50px;
-  width: 200px;
-  margin: 10px;
-}
+/*-----------------------------------------------*/
+
+/*-------------------------------------Login------------------------------------*/
+
 /*-------------------------------------Username------------------------------------*/
+/*
+
+*/
+/*-------------------------------------Username------------------------------------*/
+
+/*-------------------------------------Password------------------------------------*/
+
+.Pas,
+.rePas,
 .Use {
-  height: 70px;
-  width: 500px;
+  height: 50px;
+  width: 390px;
   margin-bottom: 100px;
   padding: 20px;
   font-size: 10px;
@@ -105,42 +119,50 @@ body {
 .Use:focus {
   box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
     inset 5px 5px 10px #546e7a;
+  width: 560px;
 }
-/*-------------------------------------Username------------------------------------*/
 
-/*-------------------------------------Password------------------------------------*/
-
-.Pas {
-  height: 70px;
-  width: 500px;
-  margin-bottom: 100px;
-  padding: 20px;
-  font-size: 10px;
-  font-size: 3em;
-  border-radius: 5em;
-  border: none;
-  outline: none;
-  background-color: #d7dfe2;
-  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.6),
-    5px 5px 10px rgba(0, 0, 0, 0.3);
-  /*text*/
-  color: #546e7a;
-  text-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
-    inset 5px 5px 10px rgba(0, 0, 0, 0.3);
-  font-size: 40px;
-}
 .Pas:focus {
   box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
     inset 5px 5px 10px #546e7a;
+  width: 560px;
+}
+.rePas:focus {
+  box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 1),
+    inset 5px 5px 10px #546e7a;
+  width: 560px;
+}
+.Use {
+  transition: 0.5s ease-out;
+}
+.Pas {
+  transition: 0.5s ease-out;
+}
+.rePas {
+  transition: 0.5s ease-out;
 }
 /*-------------------------------------Password------------------------------------*/
-
-.Forget {
-  position: relative;
-  bottom: 30px;
-  float: right;
-  font-size: 20px;
+/* @keyframes identifier {
+  0% {
+    width: 400px;
+  }
+  100% {
+  }
 }
-a {
-  text-decoration: none;
+@keyframes identifier2 {
+  0% {
+    width: 600px;
+  }
+  100% {
+    width: 400px;
+  }
+} */
+.Signup {
+  float: right;
+  transform: translate(0, -150px);
+}
+.Gohome {
+  position: relative;
+  float: right;
+  top: 5px;
 }
